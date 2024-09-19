@@ -82,7 +82,7 @@ typing_extensions==4.12.2
 tzdata==2024.1
 urllib3==2.2.3
 # Editable install with no version control (us_visa==0.0.0)
--e c:\utkarsh\us-visa-mlops
+-e .
 uvicorn==0.30.6
 wcwidth==0.2.13
 xgboost==2.1.1
