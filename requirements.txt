@@ -57,6 +57,7 @@ Pygments==2.18.0
 pymongo==4.8.0
 pyparsing==3.1.4
 python-dateutil==2.9.0.post0
+python-dotenv==1.0.1
 python-multipart==0.0.9
 pytz==2024.2
 pywin32==306
@@ -81,8 +82,7 @@ traitlets==5.14.3
 typing_extensions==4.12.2
 tzdata==2024.1
 urllib3==2.2.3
-# Editable install with no version control (us_visa==0.0.0)
--e .
+-e git+https://github.com/utkarsh-iitbhu/USA-visa-mlops.git@948a8f1c57e21d421d1657c4e208d0888d737eab#egg=us_visa
 uvicorn==0.30.6
 wcwidth==0.2.13
 xgboost==2.1.1
