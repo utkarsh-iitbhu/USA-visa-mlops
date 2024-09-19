@@ -82,7 +82,7 @@ traitlets==5.14.3
 typing_extensions==4.12.2
 tzdata==2024.1
 urllib3==2.2.3
--e git+https://github.com/utkarsh-iitbhu/USA-visa-mlops.git@948a8f1c57e21d421d1657c4e208d0888d737eab#egg=us_visa
+-e .
 uvicorn==0.30.6
 wcwidth==0.2.13
 xgboost==2.1.1
