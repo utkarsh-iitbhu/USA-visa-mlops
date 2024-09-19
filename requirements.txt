@@ -84,4 +84,4 @@ urllib3==2.2.3
 -e .
 uvicorn==0.30.6
 wcwidth==0.2.13
-xgboost==2.1.1
+
