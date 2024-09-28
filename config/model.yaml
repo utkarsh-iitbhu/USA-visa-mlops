@@ -46,3 +46,39 @@ model_selection:
       - 3
       - 5
       - 9
+
+  module_2:
+    class: DecisionTreeClassifier
+    module: sklearn.tree
+    params:
+      criterion: gini
+      splitter: best
+      max_depth: 10
+    search_param_grid:
+      criterion:
+      - gini
+      - entropy
+      splitter:
+      - best
+      - random
+      max_depth:
+      - 10
+      - 15
+
+  module_3:
+    class: XGBClassifier
+    module: xgboost
+    params:
+      max_depth: 6
+      learning_rate: 0.1
+      n_estimators: 100
+    search_param_grid:
+      max_depth:
+      - 3
+      - 6
+      learning_rate:
+      - 0.01
+      - 0.1
+      n_estimators:
+      - 100
+      - 200
